@@ -19,7 +19,7 @@
         <h1 class="font-black text-black text-5xl mb-10">Schedule</h1>
         <ul role="list" class="divide-y divide-gray-200">
           <li v-for="date in groupedGames" :key="date.id" class="flex flex-col justify-between py-6">
-            <div class="font-bold text-md">{{ date[0].date }}</div>
+            <div class="font-bold text-md">{{ formateDate(date[0].date) }}</div>
             <div v-for="game in date" :key="game.id" class="grid grid-cols-3 gap-5">
               <p class="whitespace-nowrap text-sm font-medium text-gray-900"><span class="text-gray-400 font-normal">{{ game.time }}</span></p>
               <p class="whitespace-nowrap text-sm text-gray-900 font-medium">{{ game.name }}</p>
@@ -411,5 +411,11 @@ export default {
       groupedGames
     }
   },
+  methods: {
+    formateDate(date) {
+      const options = { year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date).toLocaleDateString('en-US', options);
+    }
+  }
 }
 </script>
