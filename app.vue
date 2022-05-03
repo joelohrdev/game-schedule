@@ -395,8 +395,6 @@ const groupedGames = sortedGames.reduce((acc, curr) => {
   return acc;
 }, {});
 
-console.log(groupedGames);
-
 
 export default {
   setup() {
