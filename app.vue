@@ -1,5 +1,19 @@
+<script setup>
+  useHead({
+    titleTemplate: 'Games Schedule',
+    viewport: 'width=device-width, initial-scale=1, maximum-scale=1',
+    charset: 'utf-8',
+    meta: [
+      { name: 'Site to keep track of kids game schedule.', content: 'Game schedule site.' }
+    ],
+  })
+</script>
 <template>
-  <div class="max-w-7xl mx-auto my-10 px-4 sm:px-6 lg:px-8">
+  <div>
+    <Head>
+      <Title>Games Schedule</Title>
+    </Head>
+    <div class="max-w-7xl mx-auto my-10 px-4 sm:px-6 lg:px-8">
     <div class="max-w-2xl mx-auto">
       <div>
         <h1 class="font-black text-5xl">Schedule</h1>
@@ -14,6 +28,7 @@
         </ul>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
