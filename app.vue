@@ -110,20 +110,20 @@ const jakeGames = [
     vs: 'Citius Illinois',
   },
   {
-    id: 2,
-    name: 'Jake',
-    address: 'Elgin, IL',
-    date: '2022-05-06',
-    time: '5:00 PM',
-    vs: 'TBD',
-  }, 
-  {
     id: 3,
     name: 'Jake',
     address: 'Elgin, IL',
     date: '2022-05-07',
     time: '8:00 AM',
-    vs: 'TBD',
+    vs: 'Freeport Stix',
+  },
+  {
+    id: 23,
+    name: 'Jake',
+    address: 'Elgin, IL',
+    date: '2022-05-07',
+    time: '12:00 PM',
+    vs: 'Thunder',
   },
   {
     id: 4,
@@ -417,7 +417,7 @@ export default {
   methods: {
     formateDate(date) {
       const options = { year: 'numeric', month: 'long', day: 'numeric' };
-      return new Date(date).toLocaleDateString('en-US', options);
+      return new Date(date).toLocaleDateString('en-US', {timeZone: 'UTC'}, options);
     }
   }
 }
