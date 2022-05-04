@@ -23,10 +23,11 @@
         <ul role="list" class="divide-y divide-gray-200">
           <li v-for="date in groupedGames" :key="date.id" class="flex flex-col justify-between py-6">
             <div class="font-bold text-md mb-3">{{ formateDate(date[0].date) }}</div>
-            <div v-for="game in date" :key="game.id" class="grid grid-cols-3 gap-5 bg-white p-5 rounded-xl mb-2">
+            <div v-for="game in date" :key="game.id" class="grid grid-cols-4 gap-5 bg-white p-5 rounded-xl mb-2">
+              <p class="whitespace-nowrap text-sm font-medium text-sky-600">{{ game.address }}</p>
               <p class="whitespace-nowrap text-sm font-medium text-sky-600">{{ game.time }}</p>
               <p class="whitespace-nowrap text-sm text-sky-600 font-medium">{{ game.name }}</p>
-              <p class="whitespace-nowrap text-sm text-sky-600 font-medium">{{ game.vs }}</p>
+              <p class="whitespace-nowrap text-sm text-sky-600 font-medium">vs. {{ game.vs }}</p>
             </div>
           </li>
         </ul>
@@ -42,7 +43,7 @@ const kaileeGames = [
   {
     id: 2,
     name: 'Kailee',
-    address: 'Grayslake',
+    address: 'Grayslake, IL',
     date: '2022-05-09',
     time: '6:30 PM',
     vs: 'Grayslake North',
@@ -416,8 +417,8 @@ export default {
   },
   methods: {
     formateDate(date) {
-      const options = { year: 'numeric', month: 'long', day: 'numeric' };
-      return new Date(date).toLocaleDateString('en-US', {timeZone: 'UTC'}, options);
+      const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+      return new Date(date.concat('T00:00:00')).toLocaleDateString('en-US', options);
     }
   }
 }
