@@ -23,11 +23,15 @@
         <ul role="list" class="divide-y divide-gray-200">
           <li v-for="date in groupedGames" :key="date.id" class="flex flex-col justify-between py-6">
             <div class="font-bold text-md mb-3">{{ formateDate(date[0].date) }}</div>
-            <div v-for="game in date" :key="game.id" class="grid grid-cols-4 gap-5 bg-white p-5 rounded-xl mb-2">
-              <p class="whitespace-nowrap text-sm font-medium text-sky-600">{{ game.address }}</p>
-              <p class="whitespace-nowrap text-sm font-medium text-sky-600">{{ game.time }}</p>
-              <p class="whitespace-nowrap text-sm text-sky-600 font-medium">{{ game.name }}</p>
-              <p class="whitespace-nowrap text-sm text-sky-600 font-medium">vs. {{ game.vs }}</p>
+            <div v-for="game in date" :key="game.id" class="grid grid-cols-2 gap-5 bg-white p-5 rounded-xl mb-2">
+              <div class="grid sm:grid-cols-2">
+                <p class="whitespace-nowrap text-sm font-medium text-sky-600">{{ game.address }}</p>
+                <p class="whitespace-nowrap text-sm font-medium text-sky-600">{{ game.time }}</p>
+              </div>
+              <div class="grid sm:grid-cols-2">
+                <p class="whitespace-nowrap text-sm text-sky-600 font-medium">{{ game.name }}</p>
+                <p class="whitespace-nowrap text-sm text-sky-600 font-medium">vs. {{ game.vs }}</p>
+              </div>
             </div>
           </li>
         </ul>
