@@ -60,7 +60,7 @@ const alissaGames = [
     name: 'Alissa',
     address: 'Schaumburg, IL',
     date: '2022-05-06',
-    time: '6:00 PM',
+    time: '7:00 PM',
     vs: 'Windmills',
   },
   {
@@ -106,14 +106,6 @@ const alissaGames = [
 ]
 
 const jakeGames = [
-  {
-    id: 1,
-    name: 'Jake',
-    address: 'Huntly, IL',
-    date: '2022-05-04',
-    time: '6:00 PM',
-    vs: 'Citius Illinois',
-  },
   {
     id: 3,
     name: 'Jake',
