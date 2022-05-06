@@ -59,8 +59,8 @@ const alissaGames = [
     id: 1,
     name: 'Alissa',
     address: 'Schaumburg, IL',
-    date: '2022-05-06',
-    time: '7:00 PM',
+    date: '2022-05-07',
+    time: '3:15 PM',
     vs: 'Windmills',
   },
   {
@@ -68,15 +68,7 @@ const alissaGames = [
     name: 'Alissa',
     address: 'Schaumburg, IL',
     date: '2022-05-07',
-    time: '8:30 AM',
-    vs: 'Sluggers',
-  },
-  {
-    id: 3,
-    name: 'Alissa',
-    address: 'Schaumburg, IL',
-    date: '2022-05-07',
-    time: '11:30 AM',
+    time: '4:30 PM',
     vs: 'Sluggers',
   },
   {
