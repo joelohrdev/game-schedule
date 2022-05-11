@@ -44,40 +44,10 @@
 <script>
 
 const kaileeGames = [
-  {
-    id: 2,
-    name: 'Kailee',
-    address: 'Grayslake, IL',
-    date: '2022-05-09',
-    time: '6:30 PM',
-    vs: 'Grayslake North',
-  }
+
 ]
 
 const alissaGames = [
-  {
-    id: 1,
-    name: 'Alissa',
-    address: 'Schaumburg, IL',
-    date: '2022-05-08',
-    time: '11:10 AM',
-    vs: 'Illinois Sluggers',
-  },
-  {
-    id: 2,
-    name: 'Alissa',
-    address: 'Schaumburg, IL',
-    date: '2022-05-08',
-    time: '12:30 PM',
-    vs: 'TBD Bracket Play',
-  },{
-    id: 22,
-    name: 'Alissa',
-    address: 'Schaumburg, IL',
-    date: '2022-05-08',
-    time: '1:50 PM',
-    vs: 'TBD Championship',
-  },
   {
     id: 4,
     name: 'Alissa',
@@ -106,30 +76,6 @@ const alissaGames = [
 
 const jakeGames = [
   {
-    id: 3,
-    name: 'Jake',
-    address: 'Elgin, IL',
-    date: '2022-05-08',
-    time: '10:00 AM',
-    vs: 'Sparks',
-  },
-  {
-    id: 23,
-    name: 'Jake',
-    address: 'Elgin, IL',
-    date: '2022-05-08',
-    time: '2:00 PM',
-    vs: 'TBD Bracket Play',
-  },
-  {
-    id: 4,
-    name: 'Jake',
-    address: 'Elgin, IL',
-    date: '2022-05-08',
-    time: '4:00 PM',
-    vs: 'Championship',
-  },
-  {
     id: 5,
     name: 'Jake',
     address: 'Lake in the Hills, IL',
@@ -141,25 +87,17 @@ const jakeGames = [
     id: 6,
     name: 'Jake',
     address: 'Franklin, WI',
-    date: '2022-05-13',
-    time: '5:00 PM',
-    vs: 'TBD',
+    date: '2022-05-14',
+    time: '1:45 PM',
+    vs: 'PTA Cardinal',
   },
   {
     id: 7,
     name: 'Jake',
     address: 'Franklin, WI',
     date: '2022-05-14',
-    time: '8:00 AM',
-    vs: 'TBD',
-  },
-  {
-    id: 8,
-    name: 'Jake',
-    address: 'Franklin, WI',
-    date: '2022-05-15',
-    time: '8:00 AM',
-    vs: 'TBD',
+    time: '5:45 PM',
+    vs: 'Muskego Storm',
   },
   {
     id: 9,
