@@ -101,7 +101,7 @@ const jakeGames = [
   {
     id: 9,
     name: 'Jake',
-    address: 'Lake in the Hills, IL',
+    address: 'McHenry, IL',
     date: '2022-05-18',
     time: '6:00 PM',
     vs: 'Thunder',
