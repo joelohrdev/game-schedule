@@ -44,7 +44,14 @@
 <script>
 
 const kaileeGames = [
-
+{
+  id: 1,
+  name: 'Kailee',
+  address: 'Grayslake, IL',
+  date: '2020-05-12',
+  time: '4:45 PM',
+  vs: 'Grayslake Central',
+}
 ]
 
 const alissaGames = [
@@ -75,14 +82,6 @@ const alissaGames = [
 ]
 
 const jakeGames = [
-  {
-    id: 5,
-    name: 'Jake',
-    address: 'Lake in the Hills, IL',
-    date: '2022-05-11',
-    time: '5:30 PM',
-    vs: 'Thunder',
-  },
   {
     id: 6,
     name: 'Jake',
