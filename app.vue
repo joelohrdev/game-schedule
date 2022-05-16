@@ -58,53 +58,29 @@ const alissaGames = [
   {
     id: 4,
     name: 'Alissa',
-    address: 'Crown Point, IN',
-    date: '2022-05-14',
+    address: 'McHenry, IL',
+    date: '2022-05-21',
     time: '10:00 AM',
-    vs: 'Beverly Bandits',
+    vs: 'TBD',
   },
   {
     id: 5,
     name: 'Alissa',
-    address: 'Crown Point, IN',
-    date: '2022-05-14',
+    address: 'McHenry, IL',
+    date: '2022-05-22',
     time: '2:00 PM',
-    vs: 'Sluggers',
-  },
-  {
-    id: 6,
-    name: 'Alissa',
-    address: 'Crown Point, IN',
-    date: '2022-05-14',
-    time: '4:00 PM',
-    vs: 'Sox Boyd',
+    vs: 'TBD',
   },
 ]
 
 const jakeGames = [
-  {
-    id: 6,
-    name: 'Jake',
-    address: 'Franklin, WI',
-    date: '2022-05-14',
-    time: '1:45 PM',
-    vs: 'PTA Cardinal',
-  },
-  {
-    id: 7,
-    name: 'Jake',
-    address: 'Franklin, WI',
-    date: '2022-05-14',
-    time: '5:45 PM',
-    vs: 'Muskego Storm',
-  },
-  {
+    {
     id: 9,
     name: 'Jake',
     address: 'McHenry, IL',
     date: '2022-05-18',
-    time: '6:00 PM',
-    vs: 'Thunder',
+    time: '5:00 PM',
+    vs: 'LITH Thunder',
   },
   {
     id: 10,
