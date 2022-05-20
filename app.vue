@@ -47,41 +47,49 @@ const kaileeGames = [
 {
   id: 1,
   name: 'Kailee',
-  address: 'Grayslake, IL',
-  date: '2022-05-12',
-  time: '4:45 PM',
-  vs: 'Grayslake Central',
+  address: 'Woodstock, IL',
+  date: '2022-06-02',
+  time: '6:00 PM',
+  vs: 'Sports City Heatwave',
 }
 ]
 
 const alissaGames = [
   {
-    id: 4,
+    id: 1,
     name: 'Alissa',
     address: 'McHenry, IL',
     date: '2022-05-21',
-    time: '10:00 AM',
-    vs: 'TBD',
+    time: '9:00 AM',
+    vs: 'Gallano Hurricanes',
   },
   {
-    id: 5,
+    id: 2,
+    name: 'Alissa',
+    address: 'McHenry, IL',
+    date: '2022-05-21',
+    time: '10:30 AM',
+    vs: 'Illinois Gold',
+  },
+  {
+    id: 3,
+    name: 'Alissa',
+    address: 'McHenry, IL',
+    date: '2022-05-21',
+    time: '1:30 PM',
+    vs: 'Northern ICE',
+  },
+  {
+    id: 3,
     name: 'Alissa',
     address: 'McHenry, IL',
     date: '2022-05-22',
-    time: '2:00 PM',
+    time: '8:30 AM',
     vs: 'TBD',
   },
 ]
 
 const jakeGames = [
-    {
-    id: 9,
-    name: 'Jake',
-    address: 'McHenry, IL',
-    date: '2022-05-18',
-    time: '5:00 PM',
-    vs: 'LITH Thunder',
-  },
   {
     id: 10,
     name: 'Jake',
