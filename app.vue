@@ -55,56 +55,33 @@ const kaileeGames = [
 ]
 
 const alissaGames = [
-  {
-    id: 1,
-    name: 'Alissa',
-    address: 'Crystal Lake, IL',
-    date: '2022-05-22',
-    time: '2:00 PM',
-    vs: 'Northern Ice',
-  },
-  {
-    id: 2,
-    name: 'Alissa',
-    address: 'Crystal Lake, IL',
-    date: '2022-05-22',
-    time: '3:30 PM',
-    vs: 'Northern Ice',
-  },
+
 ]
 
 const jakeGames = [
   {
     id: 11,
     name: 'Jake',
-    address: 'McHenry, IL',
-    date: '2022-05-25',
-    time: '6:00 PM',
-    vs: 'Mundelein',
+    address: 'Bettendorf, IA',
+    date: '2022-05-28',
+    time: '4:20 PM',
+    vs: 'Heat 8U',
   },
   {
     id: 12,
     name: 'Jake',
     address: 'Bettendorf, IA',
-    date: '2022-05-27',
-    time: '5:00 PM',
-    vs: 'TBD',
-  },
-  {
-    id: 13,
-    name: 'Jake',
-    address: 'Bettendorf, IA',
     date: '2022-05-28',
-    time: '8:00 AM',
-    vs: 'TBD',
+    time: '6:10 PM',
+    vs: 'Barnstormer Bison',
   },
   {
     id: 14,
     name: 'Jake',
     address: 'Bettendorf, IA',
     date: '2022-05-29',
-    time: '8:00 AM',
-    vs: 'TBD',
+    time: '10:50 AM',
+    vs: 'Area Knights',
   },
   {
     id: 15,
