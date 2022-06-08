@@ -47,82 +47,41 @@ const kaileeGames = [
 {
   id: 1,
   name: 'Kailee',
-  address: 'Woodstock, IL',
-  date: '2022-06-02',
-  time: '6:00 PM',
-  vs: 'Sports City Heatwave',
+  address: 'Janesville, WI',
+  date: '2022-06-10',
+  time: '10:30 AM',
+  vs: 'Wisconsin Twisters',
+},
+{
+  id: 2,
+  name: 'Kailee',
+  address: 'Janesville, WI',
+  date: '2022-06-10',
+  time: '1:30 PM',
+  vs: 'ISA Silver',
+},
+{
+  id: 3,
+  name: 'Kailee',
+  address: 'Janesville, WI',
+  date: '2022-06-10',
+  time: '7:30 PM',
+  vs: 'Force Fastpitch',
 }
 ]
 
 const alissaGames = [
-
+  {
+  id: 1,
+  name: 'Alissa',
+  address: 'Crystal Lake, IL',
+  date: '2022-06-12',
+  time: '12:00 M',
+  vs: 'CTW 11U',
+}
 ]
 
 const jakeGames = [
-  {
-    id: 11,
-    name: 'Jake',
-    address: 'Bettendorf, IA',
-    date: '2022-05-28',
-    time: '4:20 PM',
-    vs: 'Heat 8U',
-  },
-  {
-    id: 12,
-    name: 'Jake',
-    address: 'Bettendorf, IA',
-    date: '2022-05-28',
-    time: '6:10 PM',
-    vs: 'Barnstormer Bison',
-  },
-  {
-    id: 14,
-    name: 'Jake',
-    address: 'Bettendorf, IA',
-    date: '2022-05-29',
-    time: '10:50 AM',
-    vs: 'Area Knights',
-  },
-  {
-    id: 15,
-    name: 'Jake',
-    address: 'Bettendorf, IA',
-    date: '2022-05-30',
-    time: '8:00 AM',
-    vs: 'TBD',
-  },
-  {
-    id: 16,
-    name: 'Jake',
-    address: 'McHenry, IL',
-    date: '2022-06-01',
-    time: '6:00 PM',
-    vs: 'RBA',
-  },
-  {
-    id: 17,
-    name: 'Jake',
-    address: 'McHenry, IL',
-    date: '2022-06-03',
-    time: '5:00 PM',
-    vs: 'TBD',
-  },
-  {
-    id: 18,
-    name: 'Jake',
-    address: 'McHenry, IL',
-    date: '2022-06-04',
-    time: '8:00 AM',
-    vs: 'TBD',
-  },
-  {
-    id: 19,
-    name: 'Jake',
-    address: 'McHenry, IL',
-    date: '2022-06-05',
-    time: '8:00 AM',
-    vs: 'TBD',
-  },
   {
     id: 20,
     name: 'Jake',
